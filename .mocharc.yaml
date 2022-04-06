@@ -1,0 +1,8 @@
+ui: 'bdd'
+timeout: 5000
+reporter: 'spec'
+spec:
+  - 'test/**/*.spec.js'
+watch-files:
+  - 'test/**/*.spec.js'
+  - 'src/**/*.js'
